@@ -1,0 +1,8 @@
+<h1>Editing Book</h1>
+
+
+  
+<%= render 'new', book: @book %>
+
+<%= link_to 'show',book_path(@book.id) %> |
+<%= link_to 'Back',books_path %>
